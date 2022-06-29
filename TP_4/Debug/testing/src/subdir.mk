@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 ################################################################################
 # Automatically-generated file. Do not edit!
 ################################################################################
 
 # Add inputs and outputs from these tool invocations to the build variables 
+=======
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+>>>>>>> 6833bf949f6a750f15c7f7d0a71e40e671c423c3
 C_SRCS += \
 ../testing/src/Employee.c \
 ../testing/src/addNodeTest.c \
@@ -24,8 +32,13 @@ C_SRCS += \
 ../testing/src/removeTest.c \
 ../testing/src/setTest.c \
 ../testing/src/sortTest.c \
+<<<<<<< HEAD
 ../testing/src/subListTest.c 
 
+=======
+../testing/src/subListTest.c 
+
+>>>>>>> 6833bf949f6a750f15c7f7d0a71e40e671c423c3
 C_DEPS += \
 ./testing/src/Employee.d \
 ./testing/src/addNodeTest.d \
@@ -47,8 +60,13 @@ C_DEPS += \
 ./testing/src/removeTest.d \
 ./testing/src/setTest.d \
 ./testing/src/sortTest.d \
+<<<<<<< HEAD
 ./testing/src/subListTest.d 
 
+=======
+./testing/src/subListTest.d 
+
+>>>>>>> 6833bf949f6a750f15c7f7d0a71e40e671c423c3
 OBJS += \
 ./testing/src/Employee.o \
 ./testing/src/addNodeTest.o \
@@ -70,6 +88,7 @@ OBJS += \
 ./testing/src/removeTest.o \
 ./testing/src/setTest.o \
 ./testing/src/sortTest.o \
+<<<<<<< HEAD
 ./testing/src/subListTest.o 
 
 
@@ -89,3 +108,24 @@ clean-testing-2f-src:
 
 .PHONY: clean-testing-2f-src
 
+=======
+./testing/src/subListTest.o 
+
+
+# Each subdirectory must supply rules for building sources it contributes
+testing/src/%.o: ../testing/src/%.c testing/src/subdir.mk
+	@echo 'Building file: $<'
+	@echo 'Invoking: GCC C Compiler'
+	gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -o "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+
+clean: clean-testing-2f-src
+
+clean-testing-2f-src:
+	-$(RM) ./testing/src/Employee.d ./testing/src/Employee.o ./testing/src/addNodeTest.d ./testing/src/addNodeTest.o ./testing/src/addTest.d ./testing/src/addTest.o ./testing/src/clearTest.d ./testing/src/clearTest.o ./testing/src/cloneTest.d ./testing/src/cloneTest.o ./testing/src/containsAllTest.d ./testing/src/containsAllTest.o ./testing/src/containsTest.d ./testing/src/containsTest.o ./testing/src/deleteLinkedListTest.d ./testing/src/deleteLinkedListTest.o ./testing/src/getNodeTest.d ./testing/src/getNodeTest.o ./testing/src/getTest.d ./testing/src/getTest.o ./testing/src/indexOfTest.d ./testing/src/indexOfTest.o ./testing/src/isEmptyTest.d ./testing/src/isEmptyTest.o ./testing/src/lenTest.d ./testing/src/lenTest.o ./testing/src/main_test.d ./testing/src/main_test.o ./testing/src/newTest.d ./testing/src/newTest.o ./testing/src/popTest.d ./testing/src/popTest.o ./testing/src/pushTest.d ./testing/src/pushTest.o ./testing/src/removeTest.d ./testing/src/removeTest.o ./testing/src/setTest.d ./testing/src/setTest.o ./testing/src/sortTest.d ./testing/src/sortTest.o ./testing/src/subListTest.d ./testing/src/subListTest.o
+
+.PHONY: clean-testing-2f-src
+
+>>>>>>> 6833bf949f6a750f15c7f7d0a71e40e671c423c3
