@@ -121,7 +121,11 @@ void addNodeTestCase05(void)
     test_addNode(list,0,other);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     nodoAux = test_getNode(list,0);
+=======
+    nodoAux = test_getNode(list,0);
+>>>>>>> 6833bf949f6a750f15c7f7d0a71e40e671c423c3
 =======
     nodoAux = test_getNode(list,0);
 >>>>>>> 6833bf949f6a750f15c7f7d0a71e40e671c423c3
